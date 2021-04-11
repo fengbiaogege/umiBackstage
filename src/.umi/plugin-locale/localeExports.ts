@@ -3,11 +3,11 @@ import {
   createIntl,
   IntlShape,
   MessageDescriptor,
-} from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/react-intl';
+} from 'D:/all/a/umiBackstage/node_modules/react-intl';
 import { ApplyPluginsType } from 'umi';
 import { event, LANG_CHANGE_EVENT } from './locale';
 // @ts-ignore
-import warning from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/warning/warning.js';
+import warning from 'D:/all/a/umiBackstage/node_modules/warning/warning.js';
 
 import { plugin } from '../core/plugin';
 
@@ -34,7 +34,7 @@ export {
   defineMessages,
   injectIntl,
   useIntl,
-} from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/react-intl';
+} from 'D:/all/a/umiBackstage/node_modules/react-intl';
 
 let g_intl: IntlShape;
 
@@ -43,7 +43,7 @@ const useLocalStorage = true;
 export const localeInfo: {[key: string]: any} = {
   'zh-CN': {
     messages: {
-      ...((locale) => locale.__esModule ? locale.default : locale)(require('D:/生活/桌面/新建文件夹/umiBackstage/src/locales/zh-CN.ts')),
+      ...((locale) => locale.__esModule ? locale.default : locale)(require('D:/all/a/umiBackstage/src/locales/zh-CN.ts')),
     },
     locale: 'zh-CN',
     antd: {

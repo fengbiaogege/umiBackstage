@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from 'D:/生活/桌面/新建文件夹/umiBackstage/src/.umi/plugin-initial-state/models/initialState';
+import initialState from 'D:/all/a/umiBackstage/src/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from 'D:/all/a/umiBackstage/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
 // @ts-ignore
-import Executor from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/@umijs/plugin-model/lib/helpers/executor';
+import Executor from 'D:/all/a/umiBackstage/node_modules/@umijs/plugin-model/lib/helpers/executor';
 // @ts-ignore
-import { UmiContext } from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from 'D:/all/a/umiBackstage/node_modules/@umijs/plugin-model/lib/helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 

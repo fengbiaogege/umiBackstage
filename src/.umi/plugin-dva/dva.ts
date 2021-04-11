@@ -3,12 +3,12 @@ import { Component } from 'react';
 import { ApplyPluginsType } from 'umi';
 import dva from 'dva';
 // @ts-ignore
-import createLoading from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/dva-loading/dist/index.esm.js';
+import createLoading from 'D:/all/a/umiBackstage/node_modules/dva-loading/dist/index.esm.js';
 import { plugin, history } from '../core/umiExports';
-import ModelGlobal0 from 'D:/生活/桌面/新建文件夹/umiBackstage/src/models/global.ts';
-import ModelLogin1 from 'D:/生活/桌面/新建文件夹/umiBackstage/src/models/login.ts';
-import ModelSetting2 from 'D:/生活/桌面/新建文件夹/umiBackstage/src/models/setting.ts';
-import ModelUser3 from 'D:/生活/桌面/新建文件夹/umiBackstage/src/models/user.ts';
+import ModelGlobal0 from 'D:/all/a/umiBackstage/src/models/global.ts';
+import ModelLogin1 from 'D:/all/a/umiBackstage/src/models/login.ts';
+import ModelSetting2 from 'D:/all/a/umiBackstage/src/models/setting.ts';
+import ModelUser3 from 'D:/all/a/umiBackstage/src/models/user.ts';
 
 let app:any = null;
 

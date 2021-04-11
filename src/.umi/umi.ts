@@ -1,11 +1,12 @@
 // @ts-nocheck
 import './core/polyfill';
+import '@@/core/devScripts';
 import '../global.tsx';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/@umijs/runtime';
-import { renderClient } from 'D:/生活/桌面/新建文件夹/umiBackstage/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from 'D:/all/a/umiBackstage/node_modules/@umijs/runtime';
+import { renderClient } from 'D:/all/a/umiBackstage/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
